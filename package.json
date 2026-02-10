@@ -1,0 +1,26 @@
+{
+  "name": "api-generator",
+  "version": "1.0.0",
+  "description": "CLI for generating api.ts/api.js using axios requests from the most popular backend frameworks",
+  "bin": {
+    "api-generator": "./bin/cli.js"
+  },
+  "type": "module",
+  "main": "src/generate.js",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "release": "npm publish --access public"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "glob": "^13.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
