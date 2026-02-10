@@ -1,6 +1,6 @@
 {
   "name": "@vemorr/api-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI for generating api.ts/api.js using axios requests from the most popular backend frameworks",
   "bin": {
     "api-generator": "./bin/cli.js"
