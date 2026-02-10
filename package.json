@@ -1,5 +1,5 @@
 {
-  "name": "api-generator",
+  "name": "@vemorr/api-generator",
   "version": "1.0.0",
   "description": "CLI for generating api.ts/api.js using axios requests from the most popular backend frameworks",
   "bin": {
@@ -14,7 +14,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "release": "npm publish --access public"
+    "release": "npm ci && npm publish --access public"
   },
   "dependencies": {
     "commander": "^11.1.0",
