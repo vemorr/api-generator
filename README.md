@@ -1,4 +1,4 @@
-![preview](./preview.gif)
+![preview](https://skyn3t.fun/preview.gif)
 # Api Generator
 *This library made for auto-generating api.ts or api.js from backend projects ready to connect for frontend*
 
